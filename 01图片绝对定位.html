@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .body-content{
+        width: 1000px;
+        height: 400px;
+        border: 1px solid red;
+    }
+    .icon-bottom{
+        width: 400px;
+        height: 120px;
+        border: 1px solid orange;
+        /* 让三个div图片水平居中 */
+        text-align: center;
+        /* 让三个div图片垂直居中 */
+        line-height: 120px;
+    }
+    .icon-bottom .icon-left{
+        width: 30%;
+        height: 100px;
+        border: 1px solid red;
+        background-color: pink;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .icon-bottom .icon-left img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .icon-bottom .icon-mid{
+        width: 30%;
+        height: 100px;
+        border: 1px solid red;
+        background-color: pink;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .icon-bottom .icon-mid img{
+        width: 80px;
+        height: 80px;
+
+        /* 让div里的图片水平/垂直居中 */
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .icon-bottom .icon-right{
+        width: 30%;
+        height: 100px;
+        border: 1px solid red;
+        background-color: pink;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .icon-bottom .icon-right img{
+        width: 100px;
+        height: 100px;
+    }
+</style>
+<body>
+    <div class="body-content">
+        <div class="icon-bottom">
+            <div class="icon-left">
+                <img src="./img/face.jpg" alt="">
+            </div>
+            <div class="icon-mid">
+                <img src="./img/compare.jpg" alt="">
+            </div>
+            <div class="icon-right">
+                <img src="./img/face.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
