@@ -12,6 +12,7 @@
         </a>
       </li>
       <button @click="JumpPageEcharDemo">echart demo</button>
+      <button @click="JumpPageVantDemo">vant demo</button>
       <li>
         <a
           href="https://twitter.com/vuejs"
@@ -36,7 +37,10 @@ export default {
   methods:{
     JumpPageEcharDemo(){
       this.$router.push({path: "/echartDemo",});
-    }
+    },
+    JumpPageVantDemo(){
+      this.$router.push({path: "/vantDemo",});
+    },
   }
 }
 </script>

@@ -17,5 +17,10 @@ export default new Router({
       name: 'HelloWorld',
       component: resolve => require(['@/pages/EchartDemo.vue'], resolve)
     },
+    {
+      path: '/vantDemo',
+      name: 'vantDemo',
+      component: resolve => require(['@/pages/vantDemo.vue'], resolve)
+    },
   ]
 })
