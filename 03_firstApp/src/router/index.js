@@ -14,13 +14,18 @@ export default new Router({
     },
     {
       path: '/echartDemo',
-      name: 'HelloWorld',
+      name: 'echartDemo',
       component: resolve => require(['@/pages/EchartDemo.vue'], resolve)
     },
     {
       path: '/vantDemo',
       name: 'vantDemo',
       component: resolve => require(['@/pages/vantDemo.vue'], resolve)
+    },
+    {
+      path: '/elementDemo',
+      name: 'elementDemo',
+      component: resolve => require(['@/pages/elementDemo.vue'], resolve)
     },
   ]
 })

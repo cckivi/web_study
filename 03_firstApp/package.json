@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "echarts": "^4.9.0",
+    "element-ui": "^2.14.1",
     "less": "^3.12.2",
     "less-loader": "^5.0.0",
     "vant": "^2.11.1",
